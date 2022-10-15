@@ -393,12 +393,10 @@ extension LocationManager {
 
     @available(macOS, unavailable)
     @available(tvOS, unavailable)
-    @available(watchOS, unavailable)
     var pausesLocationUpdatesAutomatically: Bool? = nil
 
     @available(macOS, unavailable)
     @available(tvOS, unavailable)
-    @available(watchOS, unavailable)
     var showsBackgroundLocationIndicator: Bool? = nil
 
     public static func == (lhs: Self, rhs: Self) -> Bool {
