@@ -344,7 +344,6 @@ public struct LocationManager {
   /// Updates the given properties of a uniquely identified `CLLocationManager`.
   @available(macOS, unavailable)
   @available(tvOS, unavailable)
-  @available(watchOS, unavailable)
   public func set(
     activityType: CLActivityType? = nil,
     allowsBackgroundLocationUpdates: Bool? = nil,
@@ -431,7 +430,6 @@ extension LocationManager {
 
     @available(macOS, unavailable)
     @available(tvOS, unavailable)
-    @available(watchOS, unavailable)
     public init(
       activityType: CLActivityType? = nil,
       allowsBackgroundLocationUpdates: Bool? = nil,
